@@ -53,7 +53,7 @@ const redirectToUser = () => {
     <div class="item__item"><span>{{ username }}</span></div>
     <div class="item__item"><span>{{ email }}</span></div>
     <div class="item__item">
-      <span v-if="isitem">address</span>
+      <span v-if="isHeader">address</span>
       <div class="item__item">
         <span>{{ street }}</span>
         <span>{{ suite }}</span>
